@@ -15,7 +15,7 @@ function addMessage(text, sender) {
 
   if (sender === "bot") {
     const avatarImg = document.createElement("img");
-    avatarImg.src = "https://drive.google.com/file/d/1bQmQ26RgFhTobPGGukhBkHc2UBzvGCtv/viewk";
+    avatarImg.src = "https://drive.google.com/thumbnail?id=1bQmQ26RgFhTobPGGukhBkHc2UBzvGCtv";
     avatarImg.classList.add("bot-avatar");
     wrapperDiv.appendChild(avatarImg);
   }
